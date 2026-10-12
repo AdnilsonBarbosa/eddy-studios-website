@@ -1,8 +1,102 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Eddy Studios is an independent game development studio creating immersive motorsport experiences and more."><title>Eddy Studios — Independent Game Development</title><link rel="stylesheet" href="style.css"></head>
-<body><header class="nav"><a class="brand" href="#home"><span class="mark">E.</span> EDDY STUDIOS</a><nav><a href="#about">About</a><a href="#games">Games</a><a href="#contact">Contact</a></nav></header>
-<main id="home"><section class="hero"><div class="eyebrow"><span class="dot"></span> INDEPENDENT GAME DEVELOPMENT STUDIO</div><h1>BUILT WITH<br><em>PASSION.</em><br>MADE TO PLAY.</h1><p>We're an independent game development studio based in Cape Verde, creating memorable interactive experiences with ambition, precision and a love for games.</p><a class="cta" href="#games">EXPLORE OUR GAMES <span>↗</span></a><div class="hero-number">01 / CREATE. PLAY. EVOLVE.</div></section>
-<section class="about" id="about"><div class="section-label">01 — WHO WE ARE</div><div><h2>SMALL STUDIO.<br><span>BIG AMBITIONS.</span></h2><p>Eddy Studios is an independent game development studio from Cape Verde. We focus on thoughtful gameplay, technical craft, and experiences shaped by the people who play them.</p><p>Our journey starts with motorsport, but our vision goes beyond any single genre.</p></div></section>
-<section class="games" id="games"><div class="section-label">02 — OUR WORK</div><h2>OUR <span>GAMES.</span></h2><article class="game"><div class="game-art"><span>GER<span class="art-dot">.</span></span><small>CLASSIC MOTORSPORT</small></div><div class="game-info"><div class="tag">IN DEVELOPMENT · ANDROID</div><h3>GRAND ERA<br>RACING</h3><p>A classic motorsport experience built for mobile. Historic-inspired open-wheel racing, detailed car setups, and a focus on authentic driving feel.</p><a class="outline" href="https://play.google.com/store/apps/details?id=com.granderaracing" target="_blank" rel="noopener noreferrer">VIEW ON GOOGLE PLAY ↗</a></div></article><div class="next">MORE PROJECTS ON THE HORIZON <span>↗</span></div></section>
-<section class="contact" id="contact"><div class="section-label">03 — GET IN TOUCH</div><h2>LET'S MAKE<br><span>SOMETHING GREAT.</span></h2><p>Questions, feedback, collaborations or press enquiries? We'd love to hear from you.</p><a class="cta" href="https://github.com/AdnilsonBarbosa" target="_blank" rel="noopener noreferrer">CONTACT VIA GITHUB ↗</a></section></main>
-<footer><a class="brand" href="#home"><span class="mark">E.</span> EDDY STUDIOS</a><span>INDEPENDENTLY MADE IN CAPE VERDE</span><span>© <span id="year"></span> EDDY STUDIOS</span></footer><script>document.getElementById('year').textContent=new Date().getFullYear();</script></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1014">
+  <meta name="description" content="Eddy Studios is an independent game development studio based in Cape Verde. Discover Grand Era Racing and our upcoming games.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Eddy Studios — Independent Game Development">
+  <meta property="og:description" content="Independent games, built with obsession. Meet Eddy Studios and Grand Era Racing.">
+  <meta property="og:image" content="https://adnilsonbarbosa.github.io/eddy-studios-website/images/spa-hero.png">
+  <meta property="og:url" content="https://adnilsonbarbosa.github.io/eddy-studios-website/">
+  <link rel="canonical" href="https://adnilsonbarbosa.github.io/eddy-studios-website/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>Eddy Studios | Independent Game Development</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Eddy Studios home">
+        <span class="brand-symbol" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="brand-wordmark">EDDY<span>STUDIOS</span><small>INDEPENDENT GAME DEVELOPMENT</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#games">Games</a><a href="#studio">Our studio</a><a href="#vision">Our approach</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#games">Explore our work <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-visual" role="img" aria-label="In-game screenshot of classic open-wheel racing on a historic circuit"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="signal"></span> INDEPENDENT GAME STUDIO <span class="eyebrow-line"></span> CAPE VERDE</p>
+          <h1 id="hero-title">MADE WITH<br><em>PASSION.</em><br>BUILT TO <span>PLAY.</span></h1>
+          <p class="hero-description">We create distinctive games with character, detail and a love for the craft. Small studio. Big ambition.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#games">Discover our games <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="#studio">Meet the studio <span aria-hidden="true">↓</span></a></div>
+        </div>
+        <div class="hero-side"><span class="vertical-label">INDEPENDENT BY DESIGN</span><div class="hero-index"><b>01</b><span>/ OUR STORY STARTS HERE</span></div></div>
+      </div>
+      <div class="hero-bottom container"><span>CREATING EXPERIENCES THAT STAY WITH YOU.</span><span class="down-cue">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <div class="ticker" aria-label="Studio focus"><div class="ticker-inner"><span>INDEPENDENT DEVELOPMENT</span><i></i><span>CREATIVE FREEDOM</span><i></i><span>CRAFT & DETAIL</span><i></i><span>BUILT FOR PLAYERS</span><i></i><span>INDEPENDENT DEVELOPMENT</span></div></div>
+
+    <section class="section games-section" id="games" aria-labelledby="games-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker"><span>01</span> / OUR GAMES</p><h2 id="games-title">WORLDS WE'RE<br><em>BUILDING.</em></h2></div><p>Every project is a chance to push further, explore new ideas and create something worth playing.</p></div>
+        <article class="game-feature">
+          <div class="game-art"><img src="images/adelaide-grid.png" alt="Grand Era Racing historic-style open-wheel race cars on the starting grid" loading="lazy"><div class="art-bottom"><span>IN-GAME DEVELOPMENT SCREENSHOT</span><span>01 / 01</span></div></div>
+          <div class="game-information">
+            <div class="game-topline"><span class="status"><span class="signal"></span> IN DEVELOPMENT · ANDROID BETA</span><span>FEATURED GAME / 001</span></div>
+            <div class="game-logo-wrap"><img class="game-logo" src="images/grand-era-logo.png" alt="Grand Era Racing logo" loading="lazy"></div>
+            <p class="game-type">CLASSIC MOTORSPORT / MOBILE RACING</p>
+            <h3>GRAND ERA<br><em>RACING.</em></h3>
+            <p>Step into a world inspired by the golden eras of motorsport. Historic circuits, distinctive open-wheel machines and a handling experience designed for players who love the details.</p>
+            <div class="pill-list"><span>Android</span><span>Classic racing</span><span>Driving physics</span><span>Independent</span></div>
+            <div class="game-links"><a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.granderaracing" target="_blank" rel="noopener noreferrer">View on Google Play <span aria-hidden="true">↗</span></a><span class="game-footnote">Availability may vary by region and testing access.</span></div>
+          </div>
+        </article>
+        <div class="next-game"><span class="plus-mark" aria-hidden="true">+</span><div><strong>AND THIS IS ONLY THE BEGINNING.</strong><p>More worlds, more stories and more games will find their home here.</p></div><span class="coming-soon">WHAT'S NEXT? / TBA</span></div>
+      </div>
+    </section>
+
+    <section class="showcase-section" aria-labelledby="showcase-title">
+      <div class="container"><div class="showcase-heading"><p class="section-kicker"><span>02</span> / BEHIND THE SCENES</p><h2 id="showcase-title">A CLOSER LOOK.</h2><p>Moments from Grand Era Racing development.</p></div></div>
+      <div class="showcase-grid container">
+        <figure class="showcase-item wide"><img src="images/cockpit.png" alt="Driver cockpit view from Grand Era Racing" loading="lazy"><figcaption><strong>THE DRIVER'S VIEW</strong><span>DETAILS MAKE THE DIFFERENCE</span></figcaption></figure>
+        <figure class="showcase-item"><img src="images/monza.png" alt="Historic-style racing circuit in Grand Era Racing" loading="lazy"><figcaption><strong>HISTORIC CIRCUITS</strong><span>INSPIRED BY THE CLASSICS</span></figcaption></figure>
+        <figure class="showcase-item"><img src="images/imola.png" alt="Classic racing gameplay on a winding circuit" loading="lazy"><figcaption><strong>CRAFTED FOR THE DRIVE</strong><span>WORK IN PROGRESS</span></figcaption></figure>
+      </div>
+      <div class="container"><p class="gallery-note">Screenshots captured during development. Visuals and features may change before release.</p></div>
+    </section>
+
+    <section class="section studio-section" id="studio" aria-labelledby="studio-title">
+      <div class="container studio-grid">
+        <div class="studio-title-block"><p class="section-kicker"><span>03</span> / THE STUDIO</p><h2 id="studio-title">SMALL TEAM.<br><em>NO SMALL</em><br>IDEAS.</h2><div class="studio-brand-mark" aria-hidden="true">E<span>/</span>S</div></div>
+        <div class="studio-body"><span class="overline">ABOUT EDDY STUDIOS</span><p class="lead">We're an independent game development studio based in <strong>Cape Verde</strong>, driven by curiosity, ambition and the desire to make great games.</p><p>Eddy Studios is the creative home for Grand Era Racing and future projects. We believe the best experiences come from listening to players, refining the details and being willing to try something different.</p><div class="studio-meta"><div><span>BASED IN</span><strong>Cape Verde</strong></div><div><span>FOCUS</span><strong>Interactive entertainment</strong></div><div><span>PHILOSOPHY</span><strong>Create. Test. Improve.</strong></div></div></div>
+      </div>
+    </section>
+
+    <section class="vision-section" id="vision" aria-labelledby="vision-title">
+      <div class="container"><div class="section-heading vision-heading"><div><p class="section-kicker"><span>04</span> / OUR APPROACH</p><h2 id="vision-title">HOW WE<br><em>CREATE.</em></h2></div></div>
+        <div class="principles"><div class="principle"><span>01 /</span><h3>PASSION<br>FIRST.</h3><p>We build games we genuinely want to play — then keep improving them.</p></div><div class="principle"><span>02 /</span><h3>DETAILS<br>MATTER.</h3><p>From handling to presentation, every little decision shapes the experience.</p></div><div class="principle"><span>03 /</span><h3>PLAYERS<br>SHAPE IT.</h3><p>Community feedback is part of development, not an afterthought.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid"><div><p class="section-kicker"><span>05</span> / GET IN TOUCH</p><h2 id="contact-title">LET'S BUILD<br><em>SOMETHING.</em></h2><p>Interested in our games, collaboration or following the journey? Connect with the studio.</p></div><div class="contact-actions"><a class="contact-link" href="https://github.com/AdnilsonBarbosa" target="_blank" rel="noopener noreferrer"><span>GITHUB <small>Developer profile</small></span><span aria-hidden="true">↗</span></a><a class="contact-link" href="https://play.google.com/store/apps/details?id=com.granderaracing" target="_blank" rel="noopener noreferrer"><span>GOOGLE PLAY <small>Grand Era Racing</small></span><span aria-hidden="true">↗</span></a><a class="contact-link" href="privacy.html"><span>PRIVACY <small>Website information</small></span><span aria-hidden="true">↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><a class="footer-brand" href="#top">EDDY<span>STUDIOS</span></a><p>Independent game development from Cape Verde.<br>Built with passion. Made for players.</p><a href="#top" class="back-top">BACK TO TOP ↑</a></div><div class="container footer-bottom"><span>© <span id="year">2026</span> EDDY STUDIOS. ALL RIGHTS RESERVED.</span><span>INDEPENDENT BY DESIGN.</span><a href="privacy.html">PRIVACY</a></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
